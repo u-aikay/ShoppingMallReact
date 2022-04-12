@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#container{
+  background-color: #8fc7d6;
+  background-image: url('../images/map-image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: '0.85';
+}
+
+.apply{
+  width: 70%;
+}
+
+.staricon{
+  color: #80bfff;
+}
+
+@media screen and (min-width:768px){
+  .staricon{
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width:425px){
+  .apply{
+    width: 100%;
+  }
+}
